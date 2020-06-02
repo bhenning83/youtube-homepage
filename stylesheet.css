@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: lightskyblue;
+}
+header {
+    background: white;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 152px;
+}
+#nav-burger {
+    width: 18px;
+    height: 15px;
+    padding-top: 21px;
+    padding-left: 25px;
+}
+#logo {
+    background: transparent;
+    display: inline-block;
+    width: 80px;
+    height: 18px;
+    padding-top: 19px;
+}
+#search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    color: black;
+    opacity: 0.6;
+}
+#search-bar {
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 8px;
+    max-width: 100%;
+    margin-top: 12px;
+    width: 570px;
+    height: 26px;
+    border: 1px solid #ccc;
+}
+#search-button {
+    width: 15px;
+    height: 15px;
+    background-color: #f8f8f8;
+    margin-top: 12px;
+    margin-left: -2px;
+    padding: 7px 20px 6px 20px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+#header-end {
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 16px;
+}
+#create-video {
+    height: 14px;
+}
+#youtube-apps {
+    height: 17px;
+}
+#notifications {
+    height: 20px;
+}
+#profile-image {
+    height: 33px;
+    width: 33px;
+    border-radius: 50px;
+}
